@@ -1,0 +1,41 @@
+
+body {
+    background-color: rgb(210, 189, 54);
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    border: 10px solid green;
+}
+
+img:active {
+    transform: rotate(180deg);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+}
+
+#up {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#left {
+    margin-right: 30px;
+    padding-right: 25px;
+}
+
+#right {
+    margin-left: 70px;
+}
+
+#down {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+
